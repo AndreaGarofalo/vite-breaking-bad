@@ -12,7 +12,7 @@ export default {
   created() {
     axios
       .get(
-        "https://41tyokboji.execute-api.eu-central-1.amazonaws.com/dev/api/v1/pokemons?per=20&page=2"
+        "https://41tyokboji.execute-api.eu-central-1.amazonaws.com/dev/api/v1/pokemons?per=1100&page=1"
       )
       .then((res) => {
         this.pokemons = res.data.docs;
