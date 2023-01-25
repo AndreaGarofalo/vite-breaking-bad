@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-  <div class="col-2 poke-card">
-    <figure class="mb-0">
+  <div class="col-2 m-2 poke-card">
+    <figure>
       <img class="img-fluid" :src="image" />
     </figure>
     <figcaption>
@@ -30,7 +30,6 @@ export default {
   background-color: white;
   border-radius: 25px;
   overflow: hidden;
-  gap: 2px;
 }
 figcaption {
   text-align: center;

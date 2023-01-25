@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-  <div class="row mx-0 g-1 p-2">
+  <div class="row mx-0 p-2">
     <pokemon
       v-for="pokemon in this.pokemons"
       :key="pokemon._id"
@@ -35,4 +35,8 @@ export default {
   </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+div {
+  justify-content: center;
+}
+</style>
